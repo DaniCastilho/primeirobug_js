@@ -3,134 +3,96 @@ html{
 }
 
 body{
-  margin:0;
-  background-color:#8A71C9;
-  text-align:center;
-  font-family:Open Sans,sans-serif;
-}
-
-section{
-  width:80%;
-  margin:10px auto;
-  max-width:800px;
-}
-
-h1,p{
-  font-weight:400;
+    text-align:center;
+    font-family:Open Sans,sans-serif;
+    background-color:#8A71C9;
+    color: #ffffff;
+    margin: 0; 
 }
 
 h2{
-  color: #2A0074;
-  font-size: 40px;
-  text-align: center;
+    color:#2A0074;
+    font-size: 40px;
 }
 
 .titulo-verde{
-  color:rgb(4, 255, 159);
+    color: #04ff9f;
 }
 
 .titulo-vermelho{
-  color:#FF9E9E;
+    color: #FF9E9E;
 }
 
 .titulo-amarelo{
- color: #FFE36D;
+    color:#FFE36D;
 }
 
-.titulo-azul{
-  color: #3cc;
+section{
+    max-width: 60%;
+    margin:0 auto;
 }
 
-.titulo-branco{
-  color:#fff;
-}
-
-img{
-  width:100%;
-  margin:20px 0;
-
-}
-
-.active{
-  
-}
-
-h1{
-  color:#fff;
-  font-size:58px;
-  margin-top:56px;
-  margin-bottom:48px;
-  line-height:1.2
-}
-
-h2{
-  color:#2A0074;
-  font-size: 40px
-}
-
-h3{
-  font-size:22px;
-  margin-top:44px;
-  margin-bottom:22px;
-  font-style:italic;
-}
-
-
-p{
-  color:#fff;
-  font-size:16px;
-  line-height:1.5;
-  margin-bottom:16px
-}
-
-footer{
-  text-align: center;
-}
 ul{
-  color:#fff;
-  font-weight:300;
-  list-style-type:none;
-  padding-left:0
-}
-
-li{
-  margin-bottom: 10px;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 a{
-  color:#99FFFF;
-  font-weight:700;
-  text-decoration:none;
-}
-form{
-  margin-bottom:30px;
-}
-#topo{
-  position: fixed;
-  width: 70px;
-  height: 70px;
-  border: 1px solid white;
-  border-radius: 50%;
-  font-size: 12px;
-  box-sizing: border-box;
-  padding: 20px 0;
-  background: white;
-  color: #2A0074;
-  bottom: 10px;
-  right: 10px;
+    text-decoration: none;
+    color:#99FFFF;
+    font-weight:700;  
 }
 
+p{
+    line-height: 1.5;
+    font-size: 20px;
+}
 
+li{
+    margin-bottom: 10px;
+}
 
+h3{
+    font-style: italic;
+    font-size: 22px;
+}
 
+img{
+    width: 100%;
+}
 
+h1{
+    font-size:60px;
+    font-weight: 300;
+}
 
+nav{
+  background: #ff6cb5;
+  width: 60%;
+  margin: 0 auto;
+  height: 40px;
+  text-align: left;
 
+}
+nav ul{
+  width:100%;
+}
+nav li{
+  display: inline-block;
+  padding-top: 10px;
+  width: 32%;
+  text-align: center;
+}
 
+nav li a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
 
-
-
-
-
-
-
+button{
+  background: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
